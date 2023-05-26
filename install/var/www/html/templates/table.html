@@ -1,0 +1,15 @@
+<!-- BEANWEB Table Template -->
+      <table id="bw-table-list" bw-page="<%@CUR_PAGE@%>" bw-nr-pages="<%@NR_PAGES@%>" bw-reload-time="<%@RELOAD_TIME@%>" class="table table-bordered table-hover table-striped">
+        <thead>
+          <tr>
+            <%@HEADER@%>
+          </tr>
+        </thead>
+        <tbody>
+          <%!foreach
+          <tr>
+            <%&BODY&%>
+          </tr>
+          !%>
+        </tbody>
+      </table>

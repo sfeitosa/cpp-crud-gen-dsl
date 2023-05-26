@@ -1,0 +1,7 @@
+<TR>
+ <LABEL><%@FIELD_LABEL@%>:<LABEL>
+</TR>
+<TR>
+ <%!foreach 
+  <input name='<%@FIELD_NAME@%>' type='checkbox' value='<%#FIELD_VALUE#%>'><%#FIELD_VALUE_DESCR#%> !%>
+</TR>

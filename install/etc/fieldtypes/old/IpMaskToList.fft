@@ -1,0 +1,120 @@
+<TR>
+ <TD>
+  <%@FIELD_LABEL@%>:
+ </TD>
+</TR>
+<TR>
+ <TD><%@FIELD_LABEL@%>s Associados</TD>
+ <TD></TD>
+ <TD>Novo <%@FIELD_LABEL@%></TD>
+</TR>
+<TR class="autoload"
+    onload="setInputToListDefaultValue('<%@FIELD_NAME@%>');">
+ <TD>
+  <SELECT name='__<%@FIELD_NAME@%>_dst' 
+          id='sel_<%@FIELD_NAME@%>_dst' 
+          multiple>
+  </SELECT>
+ </TD>
+ <TD>
+  <CENTER>
+   <BUTTON type='button'
+           onclick='addInputToList("<%@FIELD_NAME@%>");'>&lt;&lt;
+   </BUTTON>
+  </CENTER>
+  <CENTER>
+   <BUTTON type='button'
+           onclick='delInputFromList("<%@FIELD_NAME@%>");'>Remover
+   </BUTTON>
+  </CENTER>
+ </TD>
+ <TD>
+
+ <INPUT
+     type='hidden'
+     name='txt_<%@FIELD_NAME@%>_src'
+     value='<%@FIELD_VALUE@%>'
+     id='txt_<%@FIELD_NAME@%>_src' />
+ <INPUT
+     type='hidden'
+     id='txt_<%@FIELD_NAME@%>_src_addr' />
+ <INPUT
+     type='hidden'
+     id='txt_<%@FIELD_NAME@%>_src_mask' />
+
+ <INPUT size='1'
+        maxlength='3'
+        type='text'
+        onkeypress="return ipChangeEvent('txt_<%@FIELD_NAME@%>_src', 1, 'addr', event);"
+        onblur="return ipBlurEvent('txt_<%@FIELD_NAME@%>_src', 1, 'addr', event);"
+        id='txt_<%@FIELD_NAME@%>_src_addr1'>
+ <B>.</B>
+ <INPUT size='1'
+        maxlength='3'
+        type='text'
+        onkeypress="return ipChangeEvent('txt_<%@FIELD_NAME@%>_src', 2, 'addr', event);"
+        onblur="return ipBlurEvent('txt_<%@FIELD_NAME@%>_src', 2, 'addr', event);"
+        id='txt_<%@FIELD_NAME@%>_src_addr2'>
+ <B>.</B>
+ <INPUT size='1'
+        maxlength='3'
+        type='text'
+        onkeypress="return ipChangeEvent('txt_<%@FIELD_NAME@%>_src', 3, 'addr', event);"
+        onblur="return ipBlurEvent('txt_<%@FIELD_NAME@%>_src', 3, 'addr', event);"
+        id='txt_<%@FIELD_NAME@%>_src_addr3'>
+ <B>.</B>
+ <INPUT size='1'
+        maxlength='3'
+        type='text'
+        onkeypress="return ipChangeEvent('txt_<%@FIELD_NAME@%>_src', 4, 'addr', event);"
+        onblur="return ipBlurEvent('txt_<%@FIELD_NAME@%>_src', 4, 'addr', event);"
+        id='txt_<%@FIELD_NAME@%>_src_addr4'>
+<DIV id='txt_<%@FIELD_NAME@%>_src_divmask'>
+
+ <INPUT size='1'
+        maxlength='3'
+        type='text'
+        onkeypress="return ipChangeEvent('txt_<%@FIELD_NAME@%>_src', 1, 'mask', event);"
+        onblur="return ipBlurEvent('txt_<%@FIELD_NAME@%>_src', 1, 'mask', event);"
+        id='txt_<%@FIELD_NAME@%>_src_mask1'>
+ <B>.</B>
+ <INPUT size='1'
+        maxlength='3'
+        type='text'
+        onkeypress="return ipChangeEvent('txt_<%@FIELD_NAME@%>_src', 2, 'mask', event);"
+        onblur="return ipBlurEvent('txt_<%@FIELD_NAME@%>_src', 2, 'mask', event);"
+        id='txt_<%@FIELD_NAME@%>_src_mask2'>
+ <B>.</B>
+ <INPUT size='1'
+        maxlength='3'
+        type='text'
+        onkeypress="return ipChangeEvent('txt_<%@FIELD_NAME@%>_src', 3, 'mask', event);"
+        onblur="return ipBlurEvent('txt_<%@FIELD_NAME@%>_src', 3, 'mask', event);"
+        id='txt_<%@FIELD_NAME@%>_src_mask3'>
+ <B>.</B>
+ <INPUT size='1'
+        maxlength='3'
+        type='text'
+        onkeypress="return ipChangeEvent('txt_<%@FIELD_NAME@%>_src', 4, 'mask', event);"
+        onblur="return ipBlurEvent('txt_<%@FIELD_NAME@%>_src', 4, 'mask', event);"
+        id='txt_<%@FIELD_NAME@%>_src_mask4'>
+</DIV>
+ <INPUT type='checkbox'
+        class="autoload"
+        id='txt_<%@FIELD_NAME@%>_src_hasnetmask'
+        name='txt_<%@FIELD_NAME@%>_src_hasnetmask'
+        onchange="toggleIpNetmask('txt_<%@FIELD_NAME@%>_src');"
+        onload="toggleIpNetmask('txt_<%@FIELD_NAME@%>_src', true);">
+
+ &Eacute; uma faixa de rede
+
+<!--  <INPUT type='text'
+         name='__<%@FIELD_NAME@%>_src' 
+         id='txt_<%@FIELD_NAME@%>_src' />
+ </TD>
+  //FIM-DA-AREA-TO-ANTIGO-SRC-TEXTO-->
+ <INPUT type='hidden' 
+        id='<%@FIELD_NAME@%>' 
+        name='<%@FIELD_NAME@%>' 
+        value='<%@FIELD_VALUE@%>' />
+</TR>

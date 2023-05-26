@@ -1,0 +1,64 @@
+<TR>
+ <TD><LABEL><%@FIELD_LABEL@%>:</LABEL></TD>
+</TR>
+<TR>
+ <TD class="autoload" 
+     onload="mountDefaultDate('<%@FIELD_NAME@%>');">
+  <SELECT id='id_<%@FIELD_NAME@%>_p1' onchange='mountDate("<%@FIELD_NAME@%>");'>
+   <OPTION value='01'>01</OPTION> 
+   <OPTION value='02'>02</OPTION> 
+   <OPTION value='03'>03</OPTION> 
+   <OPTION value='04'>04</OPTION> 
+   <OPTION value='05'>05</OPTION> 
+   <OPTION value='06'>06</OPTION> 
+   <OPTION value='07'>07</OPTION> 
+   <OPTION value='08'>08</OPTION> 
+   <OPTION value='09'>09</OPTION> 
+   <OPTION value='10'>10</OPTION> 
+   <OPTION value='11'>11</OPTION> 
+   <OPTION value='12'>12</OPTION> 
+   <OPTION value='13'>13</OPTION> 
+   <OPTION value='14'>14</OPTION> 
+   <OPTION value='15'>15</OPTION> 
+   <OPTION value='16'>16</OPTION> 
+   <OPTION value='17'>17</OPTION> 
+   <OPTION value='18'>18</OPTION> 
+   <OPTION value='19'>19</OPTION> 
+   <OPTION value='20'>20</OPTION> 
+   <OPTION value='21'>21</OPTION> 
+   <OPTION value='22'>22</OPTION> 
+   <OPTION value='23'>23</OPTION> 
+   <OPTION value='25'>25</OPTION> 
+   <OPTION value='26'>26</OPTION> 
+   <OPTION value='27'>27</OPTION> 
+   <OPTION value='28'>28</OPTION> 
+   <OPTION value='29'>29</OPTION> 
+   <OPTION value='30'>30</OPTION> 
+   <OPTION value='31'>31</OPTION> 
+  </SELECT> /
+  <SELECT id='id_<%@FIELD_NAME@%>_p2' onchange='mountDate("<%@FIELD_NAME@%>");'>
+   <OPTION value='1'>Jan</OPTION> 
+   <OPTION value='2'>Fev</OPTION> 
+   <OPTION value='3'>Mar</OPTION> 
+   <OPTION value='4'>Abr</OPTION> 
+   <OPTION value='5'>Mai</OPTION> 
+   <OPTION value='6'>Jun</OPTION> 
+   <OPTION value='7'>Jul</OPTION> 
+   <OPTION value='8'>Ago</OPTION> 
+   <OPTION value='9'>Set</OPTION> 
+   <OPTION value='10'>Out</OPTION> 
+   <OPTION value='11'>Nov</OPTION> 
+   <OPTION value='12'>Dez</OPTION> 
+  </SELECT> /
+
+  <INPUT onchange='mountDate("<%@FIELD_NAME@%>");'
+         type='text'
+         id='id_<%@FIELD_NAME@%>_p3'/>
+
+  <INPUT type='hidden' 
+         name='<%@FIELD_NAME@%>' 
+         value='<%@FIELD_VALUE@%>' 
+         id='<%@FIELD_NAME@%>' />
+
+ </TD>
+</TR>

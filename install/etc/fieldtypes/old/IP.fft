@@ -1,0 +1,86 @@
+<TR>
+ <TD><LABEL><%@FIELD_LABEL@%>:</LABEL></TD>
+</TR>
+<TR>
+ <TD class="autoload"
+     onload="loadDefaultIp('<%@FIELD_NAME@%>');">
+ <INPUT 
+     type='hidden' 
+     name='<%@FIELD_NAME@%>' 
+     value='<%@FIELD_VALUE@%>' 
+     id='<%@FIELD_NAME@%>' />
+ <INPUT 
+     type='hidden' 
+     id='<%@FIELD_NAME@%>_addr' />
+ <INPUT 
+     type='hidden' 
+     id='<%@FIELD_NAME@%>_mask' />
+ 
+ <INPUT size='1'
+        maxlength='3' 
+        type='text' 
+        onkeypress="return ipChangeEvent('<%@FIELD_NAME@%>', 1, 'addr', event);"
+	onblur="return ipBlurEvent('<%@FIELD_NAME@%>', 1, 'addr', event);"
+        id='<%@FIELD_NAME@%>_addr1'>
+ <B>.</B>
+ <INPUT size='1' 
+	maxlength='3'
+	type='text' 
+        onkeypress="return ipChangeEvent('<%@FIELD_NAME@%>', 2, 'addr', event);"
+	onblur="return ipBlurEvent('<%@FIELD_NAME@%>', 2, 'addr', event);"
+	id='<%@FIELD_NAME@%>_addr2'>
+ <B>.</B>
+ <INPUT size='1' 
+	maxlength='3' 
+	type='text' 
+        onkeypress="return ipChangeEvent('<%@FIELD_NAME@%>', 3, 'addr', event);"
+	onblur="return ipBlurEvent('<%@FIELD_NAME@%>', 3, 'addr', event);"
+	id='<%@FIELD_NAME@%>_addr3'>
+ <B>.</B>
+ <INPUT size='1' 
+	maxlength='3' 
+	type='text' 
+	onkeypress="return ipChangeEvent('<%@FIELD_NAME@%>', 4, 'addr', event);"
+	onblur="return ipBlurEvent('<%@FIELD_NAME@%>', 4, 'addr', event);"
+	id='<%@FIELD_NAME@%>_addr4'>
+<DIV id='<%@FIELD_NAME@%>_divmask'>
+
+ <INPUT size='1'
+        maxlength='3' 
+        type='text' 
+        onkeypress="return ipChangeEvent('<%@FIELD_NAME@%>', 1, 'mask', event);"
+	onblur="return ipBlurEvent('<%@FIELD_NAME@%>', 1, 'mask', event);"
+        id='<%@FIELD_NAME@%>_mask1'>
+ <B>.</B>
+ <INPUT size='1' 
+	maxlength='3'
+	type='text' 
+        onkeypress="return ipChangeEvent('<%@FIELD_NAME@%>', 2, 'mask', event);"
+	onblur="return ipBlurEvent('<%@FIELD_NAME@%>', 2, 'mask', event);"
+	id='<%@FIELD_NAME@%>_mask2'>
+ <B>.</B>
+ <INPUT size='1' 
+	maxlength='3' 
+	type='text' 
+        onkeypress="return ipChangeEvent('<%@FIELD_NAME@%>', 3, 'mask', event);"
+	onblur="return ipBlurEvent('<%@FIELD_NAME@%>', 3, 'mask', event);"
+	id='<%@FIELD_NAME@%>_mask3'>
+ <B>.</B>
+ <INPUT size='1' 
+	maxlength='3' 
+	type='text' 
+	onkeypress="return ipChangeEvent('<%@FIELD_NAME@%>', 4, 'mask', event);"
+	onblur="return ipBlurEvent('<%@FIELD_NAME@%>', 4, 'mask', event);"
+	id='<%@FIELD_NAME@%>_mask4'>
+
+ <INPUT type='checkbox'
+        class="autoload"
+        id='<%@FIELD_NAME@%>_hasnetmask'
+        name='<%@FIELD_NAME@%>_hasnetmask'
+        onchange="toggleIpNetmask('<%@FIELD_NAME@%>');"
+        onload="toggleIpNetmask('<%@FIELD_NAME@%>', true);">
+
+ &Eacute; uma faixa de rede
+</DIV>
+ </TD>
+</TR>

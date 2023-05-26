@@ -1,0 +1,169 @@
+<div class="form-group">
+  <label for="<%@FIELD_NAME@%>"<%@FIELD_LABEL@%></label>
+    <div class="bfh-datepicker" data-format="d/m/y" 
+         data-date="today">
+      <div class="input-group bfh-datepicker-toggle" data-toggle="bfh-datepicker">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+        <input type="text" class="form-control" id="<%@FIELD_NAME@%>" readonly>
+      </div>
+      <div class="bfh-datepicker-calendar">
+        <table class="calendar table table-bordered">
+          <thead>
+            <tr class="months-header">
+              <th class="month" colspan="4">
+                <a class="previous" href="#"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                <span></span>
+                <a class="next" href="#"><i class="glyphicon glyphicon-chevron-right"></i></a>
+              </th>
+              <th class="year" colspan="3">
+                <a class="previous" href="#"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                <span></span>
+                <a class="next" href="#"><i class="glyphicon glyphicon-chevron-right"></i></a>
+              </th>
+            </tr>
+            <tr class="days-header">
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+</div>
+
+
+<TR>
+ <TD><LABEL><%@FIELD_LABEL@%>:</LABEL></TD>
+</TR>
+<TR>
+ <TD class="autoload" 
+     onload="mountDefaultDatePeriod('<%@FIELD_NAME@%>');">
+  <SELECT id='id_<%@FIELD_NAME@%>_p1' onchange='mountDatePeriod("<%@FIELD_NAME@%>");'>
+   <OPTION value='1'>01</OPTION> 
+   <OPTION value='2'>02</OPTION> 
+   <OPTION value='3'>03</OPTION> 
+   <OPTION value='4'>04</OPTION> 
+   <OPTION value='5'>05</OPTION> 
+   <OPTION value='6'>06</OPTION> 
+   <OPTION value='7'>07</OPTION> 
+   <OPTION value='8'>08</OPTION> 
+   <OPTION value='9'>09</OPTION> 
+   <OPTION value='10'>10</OPTION> 
+   <OPTION value='11'>11</OPTION> 
+   <OPTION value='12'>12</OPTION> 
+   <OPTION value='13'>13</OPTION> 
+   <OPTION value='14'>14</OPTION> 
+   <OPTION value='15'>15</OPTION> 
+   <OPTION value='16'>16</OPTION> 
+   <OPTION value='17'>17</OPTION> 
+   <OPTION value='18'>18</OPTION> 
+   <OPTION value='19'>19</OPTION> 
+   <OPTION value='20'>20</OPTION> 
+   <OPTION value='21'>21</OPTION> 
+   <OPTION value='22'>22</OPTION> 
+   <OPTION value='23'>23</OPTION> 
+   <OPTION value='24'>24</OPTION> 
+   <OPTION value='25'>25</OPTION> 
+   <OPTION value='26'>26</OPTION> 
+   <OPTION value='27'>27</OPTION> 
+   <OPTION value='28'>28</OPTION> 
+   <OPTION value='29'>29</OPTION> 
+   <OPTION value='30'>30</OPTION> 
+   <OPTION value='31'>31</OPTION> 
+  </SELECT> /
+  <SELECT id='id_<%@FIELD_NAME@%>_p2' onchange='mountDatePeriod("<%@FIELD_NAME@%>");'>
+   <OPTION value='1'>Jan</OPTION> 
+   <OPTION value='2'>Fev</OPTION> 
+   <OPTION value='3'>Mar</OPTION> 
+   <OPTION value='4'>Abr</OPTION> 
+   <OPTION value='5'>Mai</OPTION> 
+   <OPTION value='6'>Jun</OPTION> 
+   <OPTION value='7'>Jul</OPTION> 
+   <OPTION value='8'>Ago</OPTION> 
+   <OPTION value='9'>Set</OPTION> 
+   <OPTION value='10'>Out</OPTION> 
+   <OPTION value='11'>Nov</OPTION> 
+   <OPTION value='12'>Dez</OPTION> 
+  </SELECT> /
+
+  <INPUT class='inputyear' 
+         onchange='mountDatePeriod("<%@FIELD_NAME@%>");'
+         type='text'
+	 maxlength='4'
+         id='id_<%@FIELD_NAME@%>_p3'/>
+  </TD>
+  <TD>
+   <CENTER> at&eacute;</CENTER>
+  </TD>
+  <TD>
+  <SELECT id='id_<%@FIELD_NAME@%>_p4' onchange='mountDatePeriod("<%@FIELD_NAME@%>");'>
+   <OPTION value='1'>01</OPTION> 
+   <OPTION value='2'>02</OPTION> 
+   <OPTION value='3'>03</OPTION> 
+   <OPTION value='4'>04</OPTION> 
+   <OPTION value='5'>05</OPTION> 
+   <OPTION value='6'>06</OPTION> 
+   <OPTION value='7'>07</OPTION> 
+   <OPTION value='8'>08</OPTION> 
+   <OPTION value='9'>09</OPTION> 
+   <OPTION value='10'>10</OPTION> 
+   <OPTION value='11'>11</OPTION> 
+   <OPTION value='12'>12</OPTION> 
+   <OPTION value='13'>13</OPTION> 
+   <OPTION value='14'>14</OPTION> 
+   <OPTION value='15'>15</OPTION> 
+   <OPTION value='16'>16</OPTION> 
+   <OPTION value='17'>17</OPTION> 
+   <OPTION value='18'>18</OPTION> 
+   <OPTION value='19'>19</OPTION> 
+   <OPTION value='20'>20</OPTION> 
+   <OPTION value='21'>21</OPTION> 
+   <OPTION value='22'>22</OPTION> 
+   <OPTION value='23'>23</OPTION> 
+   <OPTION value='24'>24</OPTION> 
+   <OPTION value='25'>25</OPTION> 
+   <OPTION value='26'>26</OPTION> 
+   <OPTION value='27'>27</OPTION> 
+   <OPTION value='28'>28</OPTION> 
+   <OPTION value='29'>29</OPTION> 
+   <OPTION value='30'>30</OPTION> 
+   <OPTION value='31'>31</OPTION> 
+  </SELECT> /
+  <SELECT id='id_<%@FIELD_NAME@%>_p5' onchange='mountDatePeriod("<%@FIELD_NAME@%>");'>
+   <OPTION value='1'>Jan</OPTION> 
+   <OPTION value='2'>Fev</OPTION> 
+   <OPTION value='3'>Mar</OPTION> 
+   <OPTION value='4'>Abr</OPTION> 
+   <OPTION value='5'>Mai</OPTION> 
+   <OPTION value='6'>Jun</OPTION> 
+   <OPTION value='7'>Jul</OPTION> 
+   <OPTION value='8'>Ago</OPTION> 
+   <OPTION value='9'>Set</OPTION> 
+   <OPTION value='10'>Out</OPTION> 
+   <OPTION value='11'>Nov</OPTION> 
+   <OPTION value='12'>Dez</OPTION> 
+  </SELECT> /
+
+  <INPUT class='inputyear' 
+         onchange='mountDatePeriod("<%@FIELD_NAME@%>");'
+	 maxlength='4'
+         type='text'
+         id='id_<%@FIELD_NAME@%>_p6' />
+  
+  <INPUT type='hidden'
+         name='<%@FIELD_NAME@%>'
+         value='<%@FIELD_VALUE@%>'
+         id='<%@FIELD_NAME@%>' />
+
+  <INPUT type='hidden' 
+         name='<%@FIELD_NAME@%>_1' 
+         value='<%@FIELD_VALUE@%>' 
+         id='<%@FIELD_NAME@%>_1' />
+
+  <INPUT type='hidden' 
+         name='<%@FIELD_NAME@%>_2' 
+         value='<%@FIELD_VALUE@%>' 
+         id='<%@FIELD_NAME@%>_2' />
+
+ </TD>
+</TR>

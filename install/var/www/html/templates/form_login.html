@@ -1,0 +1,19 @@
+<!-- BEANWEB Form Login Template -->
+  <body>
+    <div class="container">
+      <div class="form-signin">
+        <form action="<%@FORM_ACTION@%>" method="post" name="login" id="login">
+          <h2 class="form-signin-heading"><img src="<%@LOGO@%>"></h2>
+          <input type="text" id="usuario" name="usuario" class="form-control" placeholder="Usuário" autofocus>
+          <input type="password" id="senha" name="senha" class="form-control" placeholder="Senha">
+        </form>
+        <button id="bwlogin" class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
+        <br>
+	<div id="bwerror"><%@FORM_ERROR@%></div>
+      </div>
+    </div> <!-- /container -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <%@BODY_SCRIPTS@%>
+  </body>

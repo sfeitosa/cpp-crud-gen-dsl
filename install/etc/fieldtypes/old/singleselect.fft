@@ -1,0 +1,22 @@
+<TR>
+ <TD><%@FIELD_LABEL@%>:</TD>
+ <TD 
+       class='autoload' 
+       onload='setSingleSelectDefaultValue("<%@FIELD_NAME@%>");'>
+  <SELECT  
+	 name='<%@FIELD_NAME@%>' 
+	 value='<%@FIELD_VALUE@%>' 
+	 id='<%@FIELD_NAME@%>'>
+  <OPTION 
+          name='<%@FIELD_NAME@%>_opt'
+          class='<%@FIELD_NAME@%>_option'
+          value=''>Selecione</OPTION>
+  <%!foreach
+  <OPTION
+          name='<%@FIELD_NAME@%>_opt' 
+          class='<%@FIELD_NAME@%>_option' 
+          value='<%#FIELDOPT_ID#%>'><%#FIELDOPT_DESCR#%></OPTION>
+  !%>
+  </SELECT>
+ </TD>
+</TR>

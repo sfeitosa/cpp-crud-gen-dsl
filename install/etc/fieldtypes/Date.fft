@@ -1,0 +1,33 @@
+<div class="form-group">
+  <label for="<%@FIELD_NAME@%>"><%@FIELD_LABEL@%></label>
+  <%@FIELD_SUBLABEL@%>
+    <div class="bfh-datepicker" data-format="y-m-d" data-date="<%@FIELD_VALUE@%>">
+      <div class="input-group bfh-datepicker-toggle" data-toggle="bfh-datepicker">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+        <input type="text" name="<%@FIELD_NAME@%>" id="<%@FIELD_NAME@%>" class="form-control" value="<%@FIELD_VALUE@%>">
+      </div>
+      <div class="bfh-datepicker-calendar">
+        <table class="calendar table table-bordered">
+          <thead>
+            <tr class="months-header">
+              <th class="month" colspan="4">
+                <a class="previous" href="#"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                <span></span>
+                <a class="next" href="#"><i class="glyphicon glyphicon-chevron-right"></i></a>
+              </th>
+              <th class="year" colspan="3">
+                <a class="previous" href="#"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                <span></span>
+                <a class="next" href="#"><i class="glyphicon glyphicon-chevron-right"></i></a>
+              </th>
+            </tr>
+            <tr class="days-header">
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <%@FIELD_HELPER@%>
+</div>

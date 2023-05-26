@@ -1,0 +1,41 @@
+<TR>
+ <TD>
+  <%@FIELD_LABEL@%>:
+ </TD>
+</TR>
+<TR>
+ <TD><%@FIELD_SUBLABEL_1@%></TD>
+ <TD></TD>
+ <TD><%@FIELD_SUBLABEL_2@%></TD>
+ <TD></TD>
+ <TD><%@FIELD_SUBLABEL_3@%></TD>
+</TR>
+<TR>
+ <TD>
+  <SELECT name='__<%@FIELD_NAME@%><%@FIELD_SUBFIELD_1@%>_dst' id='sel_<%@FIELD_NAME@%><%@FIELD_SUBFIELD_1@%>_dst' multiple>
+  </SELECT>
+ </TD>
+ <TD>
+  <INPUT type='button' value='<<' onclick='list22list_add("<%@FIELD_SUBFIELD_1@%>","<%@FIELD_NAME@%>")'>
+   <br />
+  <INPUT type='button' value='>>' onclick='list22list_del("<%@FIELD_SUBFIELD_1@%>","<%@FIELD_NAME@%>")'>
+ </TD>
+ <TD>
+  <SELECT name='__<%@FIELD_NAME@%>_src' id='sel_<%@FIELD_NAME@%>_src' multiple>
+  <%!foreach 
+   <option value='<%#FIELDOPT_ID#%>'><%#FIELDOPT_DESCR#%></option>!%>
+  </SELECT>
+ </TD>
+ <TD>
+  <INPUT type='button' value='>>' onclick='list22list_add("<%@FIELD_SUBFIELD_2@%>","<%@FIELD_NAME@%>")'>
+   <br />
+  <INPUT type='button' value='<<' onclick='list22list_del("<%@FIELD_SUBFIELD_2@%>","<%@FIELD_NAME@%>")'>
+ </TD>
+ <TD>
+  <SELECT name='__<%@FIELD_NAME@%><%@FIELD_SUBFIELD_2@%>_dst' id='sel_<%@FIELD_NAME@%><%@FIELD_SUBFIELD_2@%>_dst' multiple>
+  </SELECT>
+ </TD>
+ <TD>
+ <input type='hidden' name='<%@FIELD_NAME@%><%@FIELD_SUBFIELD_1@%>' id='<%@FIELD_NAME@%><%@FIELD_SUBFIELD_1@%>' value='<%@FIELD_VALUE@%>'>
+ <input type='hidden' id='<%@FIELD_NAME@%><%@FIELD_SUBFIELD_1@%>' name='<%@FIELD_NAME@%><%@FIELD_SUBFIELD_2@%>' value='<%@FIELD_VALUE@%>'>
+</TR>

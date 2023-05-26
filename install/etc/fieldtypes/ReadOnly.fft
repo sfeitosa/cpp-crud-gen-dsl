@@ -1,0 +1,11 @@
+  <div class="form-group">
+    <label for="<%@FIELD_NAME@%>"><%@FIELD_LABEL@%></label>
+    <%@FIELD_SUBLABEL@%>
+    <div class="input-group">
+      <span class="input-group-addon"><%@FIELD_ICON@%></span>
+      <input type="text" class="form-control" name="<%@FIELD_NAME@%>" 
+             id="<%@FIELD_NAME@%>" placeholder="" value="<%@FIELD_VALUE@%>" 
+             readonly>
+    </div>
+    <%@FIELD_HELPER@%>
+  </div>

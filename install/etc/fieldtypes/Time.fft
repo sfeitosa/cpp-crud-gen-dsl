@@ -1,0 +1,31 @@
+<div class="form-group">
+  <label for="<%@FIELD_NAME@%>"><%@FIELD_LABEL@%></label>
+  <%@FIELD_SUBLABEL@%>
+  <div class="bfh-timepicker" data-time="<%@FIELD_VALUE@%>">
+    <div class="input-group bfh-timepicker-toggle" data-toggle="bfh-timepicker">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-time"></i></span>
+      <input name="<%@FIELD_NAME@%>" id="<%@FIELD_NAME@%>" 
+             class="form-control" type="text">
+    </div>
+    <div class="bfh-timepicker-popover">
+      <table class="table">
+        <tbody>
+          <tr>
+            <td class="hour">
+              <a class="next" href="#"><i class="glyphicon glyphicon-chevron-up"></i></a><br>
+              <input type="text" readonly=""><br>
+              <a class="previous" href="#"><i class="glyphicon glyphicon-chevron-down"></i></a>
+            </td>
+            <td class="separator">:</td>
+            <td class="minute">
+              <a class="next" href="#"><i class="glyphicon glyphicon-chevron-up"></i></a><br>
+              <input type="text" readonly=""><br>
+              <a class="previous" href="#"><i class="glyphicon glyphicon-chevron-down"></i></a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <%@FIELD_HELPER@%>
+</div>

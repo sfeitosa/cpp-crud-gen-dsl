@@ -1,0 +1,33 @@
+<div class="form-group">
+  <label for="<%@FIELD_NAME@%>"><%@FIELD_LABEL@%></label>
+  <%@FIELD_SUBLABEL@%>
+  <div class="row">
+    <div class="col-xs-5">
+      <SELECT class="form-control"
+              name="__<%@FIELD_NAME@%>_dst" 
+              id="sel_<%@FIELD_NAME@%>_dst" multiple>
+      </SELECT>
+    </div>
+    <div class="col-xs-2">
+      <div class="row">
+        <button type="button" fieldname="<%@FIELD_NAME@%>" class="btn btn-success form-control bwcomponent bw-il-left">
+          <span class="glyphicon glyphicon-chevron-left"></span> Adicionar
+        </button>
+      </div>
+      <div class="row">
+        <button type="button" fieldname="<%@FIELD_NAME@%>" class="btn btn-danger form-control bwcomponent bw-il-remove">
+          <span class="glyphicon glyphicon-trash"></span> Remover
+        </button>
+      </div>
+    </div>
+    <div class="col-xs-5">
+      <input type="text" class="form-control"
+             name="__<%@FIELD_NAME@%>_src"
+             id="txt_<%@FIELD_NAME@%>_src">
+
+    </div>
+  </div>
+  <%@FIELD_HELPER@%>
+  <input type="hidden" id="<%@FIELD_NAME@%>" class="bw-il-autoload"
+         name="<%@FIELD_NAME@%>" value="<%@FIELD_VALUE@%>">
+</div>

@@ -1,0 +1,12 @@
+<TR>
+ <TD><LABEL><%@FIELD_LABEL@%>:</LABEL></TD>
+</TR>
+<TR>
+ <TD>
+ <input 
+     type='<%@FIELD_TYPE@%>' 
+     name='<%@FIELD_NAME@%>' 
+     value='<%@FIELD_VALUE@%>' 
+     id='<%@FIELD_NAME@%>' />
+ </TD>
+</TR>

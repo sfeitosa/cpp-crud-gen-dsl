@@ -1,0 +1,38 @@
+<TR>
+ <TD>
+  <%@FIELD_LABEL@%>:
+ </TD>
+</TR>
+<TR>
+ <TD><%@FIELD_LABEL@%>s Associados</TD>
+ <TD></TD>
+ <TD>Lista de <%@FIELD_LABEL@%>s</TD>
+</TR>
+<TR class="autoload"
+    onload="setListToListDefaultValue('<%@FIELD_NAME@%>');">
+ <TD>
+  <SELECT name='__<%@FIELD_NAME@%>_dst' 
+          id='sel_<%@FIELD_NAME@%>_dst' 
+          multiple>
+  </SELECT>
+ </TD>
+ <TD>
+  <CENTER>
+   <BUTTON type='button'
+           onclick='addToList("dst", "<%@FIELD_NAME@%>")'>&lt;&lt;
+   </BUTTON>
+  </CENTER>
+  <CENTER>
+   <BUTTON type='button'
+           onclick='addToList("src", "<%@FIELD_NAME@%>")'>&gt;&gt;
+   </BUTTON>
+  </CENTER>
+ </TD>
+ <TD>
+  <SELECT name='__<%@FIELD_NAME@%>_src' id='sel_<%@FIELD_NAME@%>_src' multiple>
+  <%!foreach 
+   <option value='<%#FIELDOPT_ID#%>'><%#FIELDOPT_DESCR#%></option>!%>
+  </SELECT>
+ </TD>
+ <input type='hidden' id='<%@FIELD_NAME@%>' name='<%@FIELD_NAME@%>' value='<%@FIELD_VALUE@%>'>
+</TR>

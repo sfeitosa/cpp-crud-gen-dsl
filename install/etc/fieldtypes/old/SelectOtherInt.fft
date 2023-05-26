@@ -1,0 +1,20 @@
+<TR>
+ <TD><%@FIELD_LABEL@%>:</TD>
+ <TD 
+       class='autoload' 
+       onload='setSelectDefaultValue("<%@FIELD_NAME@%>");'>
+  <INPUT type='hidden' 
+	 name='<%@FIELD_NAME@%>' 
+	 value='<%@FIELD_VALUE@%>' 
+	 id='<%@FIELD_NAME@%>'>
+  <UL>
+  <%!foreach <LI>
+  <INPUT type='radio' 
+         name='<%@FIELD_NAME@%>_opt' 
+         class='<%@FIELD_NAME@%>_option' 
+         value='<%#FIELDOPT_ID#%>' 
+	 onclick='setSelectValue("<%@FIELD_NAME@%>", "<%#FIELDOPT_ID#%>");' />  <%#FIELDOPT_DESCR#%></LI> !%>
+  <LI><INPUT type='radio' onclick='setVisible("<%@FIELD_NAME@%>");' />Outro</LI>
+  </UL>
+ </TD>
+</TR>

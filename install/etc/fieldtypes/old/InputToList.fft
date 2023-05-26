@@ -1,0 +1,40 @@
+<TR>
+ <TD>
+  <%@FIELD_LABEL@%>:
+ </TD>
+</TR>
+<TR>
+ <TD><%@FIELD_LABEL@%>s Associados</TD>
+ <TD></TD>
+ <TD>Novo <%@FIELD_LABEL@%></TD>
+</TR>
+<TR class="autoload"
+    onload="setInputToListDefaultValue('<%@FIELD_NAME@%>');">
+ <TD>
+  <SELECT name='__<%@FIELD_NAME@%>_dst' 
+          id='sel_<%@FIELD_NAME@%>_dst' 
+          multiple>
+  </SELECT>
+ </TD>
+ <TD>
+  <CENTER>
+   <BUTTON type='button'
+           onclick='addInputToList("<%@FIELD_NAME@%>");'>&lt;&lt;
+   </BUTTON>
+  </CENTER>
+  <CENTER>
+   <BUTTON type='button'
+           onclick='delInputFromList("<%@FIELD_NAME@%>");'>Remover
+   </BUTTON>
+  </CENTER>
+ </TD>
+ <TD>
+  <INPUT type='text'
+         name='__<%@FIELD_NAME@%>_src' 
+         id='txt_<%@FIELD_NAME@%>_src' />
+ </TD>
+ <INPUT type='hidden' 
+        id='<%@FIELD_NAME@%>' 
+        name='<%@FIELD_NAME@%>' 
+        value='<%@FIELD_VALUE@%>' />
+</TR>

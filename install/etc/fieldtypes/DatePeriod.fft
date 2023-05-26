@@ -1,0 +1,73 @@
+<div class="form-group">
+  <label for="<%@FIELD_NAME@%>"><%@FIELD_LABEL@%></label>
+  <%@FIELD_SUBLABEL@%>
+  <div class="row">
+    <div class="col-xs-6"> 
+
+      <label for="<%@FIELD_NAME@%>_1">De</label>
+      <div class="bfh-datepicker" data-format="d/m/y" data-date="today">
+        <div class="input-group bfh-datepicker-toggle" data-toggle="bfh-datepicker">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+          <input type="text" name="<%@FIELD_NAME@%>_1" id="<%@FIELD_NAME@%>_1" class="form-control" readonly>
+        </div>
+        <div class="bfh-datepicker-calendar">
+          <table class="calendar table table-bordered">
+            <thead>
+              <tr class="months-header">
+                <th class="month" colspan="4">
+                  <a class="previous" href="#"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                  <span></span>
+                  <a class="next" href="#"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                </th>
+                <th class="year" colspan="3">
+                  <a class="previous" href="#"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                  <span></span>
+                  <a class="next" href="#"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                </th>
+              </tr>
+              <tr class="days-header">
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-xs-6">
+
+      <label for="<%@FIELD_NAME@%>_1">Até</label>
+      <div class="bfh-datepicker" data-format="d/m/y" data-date="today">
+        <div class="input-group bfh-datepicker-toggle" data-toggle="bfh-datepicker">
+          <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
+          <input type="text" name="<%@FIELD_NAME@%>_1" id="<%@FIELD_NAME@%>_1" class="form-control" readonly>
+        </div>
+        <div class="bfh-datepicker-calendar">
+          <table class="calendar table table-bordered">
+            <thead>
+              <tr class="months-header">
+                <th class="month" colspan="4">
+                  <a class="previous" href="#"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                  <span></span>
+                  <a class="next" href="#"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                </th>
+                <th class="year" colspan="3">
+                  <a class="previous" href="#"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                  <span></span>
+                  <a class="next" href="#"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                </th>
+              </tr>
+              <tr class="days-header">
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <%@FIELD_HELPER@%>
+</div>

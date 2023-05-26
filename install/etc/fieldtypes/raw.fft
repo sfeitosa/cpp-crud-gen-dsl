@@ -1,0 +1,6 @@
+  <div class="form-group">
+    <label for="<%@FIELD_NAME@%>"><%@FIELD_LABEL@%></label>
+    <%@FIELD_SUBLABEL@%>
+    <%@FIELD_RAWHTML@%>
+    <%@FIELD_HELPER@%>
+  </div>

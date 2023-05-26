@@ -1,0 +1,18 @@
+  <div class="form-group">
+    <label for="<%@FIELD_NAME@%>"><%@FIELD_LABEL@%></label>
+    <%@FIELD_SUBLABEL@%>
+    <%!foreach
+      <div class="checkbox">
+        <label>
+          <input type="checkbox" fieldname="<%@FIELD_NAME@%>"
+                 name="<%@FIELD_NAME@%>_opt" 
+                 class="<%@FIELD_NAME@%>_option form-control bw-cbl-select" 
+                 value="<%#FIELDOPT_ID#%>">
+          <%#FIELDOPT_DESCR#%>
+        </label>
+      </div>
+    !%>
+    <%@FIELD_HELPER@%>
+    <input type="hidden" name="<%@FIELD_NAME@%>" value="<%@FIELD_VALUE@%>"
+           id="<%@FIELD_NAME@%>" class="bw-cbl-autoload">
+  </div>

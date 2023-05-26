@@ -1,0 +1,53 @@
+  <p>Neste formulário você pode alterar sua senha de acesso ao portal do sistema BeanWeb Cloud Edition.</p>
+
+  <form action="/bw/cchpass.cgi?__user_id=<%@USER_ID@%>&submitted=true" method="post" name="chpass" id="chpass">
+
+  <div class="form-group">
+    <label for="user_id">Usuário</label>
+    <div class="input-group">
+      <span class="input-group-addon">
+       <span class="glyphicon glyphicon-user"></span>
+      </span>
+      <input type="text" class="form-control" name="username"
+             id="username" placeholder="" value="<%@USUARIO@%>"
+             readonly>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="curpass">Senha Atual</label>
+    <div class="input-group">
+      <span class="input-group-addon">
+       <span class="glyphicon glyphicon-asterisk"></span>
+      </span>
+      <input type="password" class="form-control"
+             name="curpass" id="curpass"
+             placeholder="" value="">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="newpass_1">Nova Senha</label>
+    <div class="input-group">
+      <span class="input-group-addon">
+       <span class="glyphicon glyphicon-asterisk"></span>
+      </span>
+      <input type="password" class="form-control"
+             name="newpass_1" id="new_pass_1"
+             placeholder="" value="">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="newpass_2">Confirme a Nova Senha</label>
+    <div class="input-group">
+      <span class="input-group-addon">
+       <span class="glyphicon glyphicon-asterisk"></span>
+      </span>
+      <input type="password" class="form-control"
+             name="newpass_2" id="newpass_2"
+             placeholder="" value="">
+    </div>
+  </div>
+
+  <div id="bwerror"><%@FORM_ERROR@%></div>

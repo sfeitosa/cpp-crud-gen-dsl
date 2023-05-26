@@ -1,0 +1,7 @@
+  <div class="form-group">
+    <label for="<%@FIELD_NAME@%>"><%@FIELD_LABEL@%></label>
+    <%@FIELD_SUBLABEL@%>
+    <textarea class="form-control" rows="3" name="<%@FIELD_NAME@%>"
+              id="<%@FIELD_NAME@%>"><%@FIELD_VALUE@%></textarea>
+    <%@FIELD_HELPER@%>
+  </div>

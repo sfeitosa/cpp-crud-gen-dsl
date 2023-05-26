@@ -1,0 +1,112 @@
+/* navbar styles
+ * ------------------------------------------------- */
+
+body {
+padding-top: 30px;
+}
+
+.container {
+  width: auto;
+/*  max-width: 680px;*/
+  padding: 0 15px;
+}
+
+.navbar {
+margin-bottom: 30px;
+}
+
+.navbar-brand {
+padding: 6px;
+}
+
+/* Sub-menu styles
+ * -------------------------------------------------- */
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px 6px;
+  border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+
+.dropdown-submenu.pull-left {
+  float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu { 
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius:6px 0 6px 6px;
+}
+
+/* Codigo utilizado para mudar a cor do item ativo no submenu */
+.nav .open > a:focus {
+  color: rgb(51, 51, 51);
+}
+
+
+/* .dropdown-submenu:hover>.dropdown-menu{display:block;} */
+
+/* Sticky footer styles
+ * -------------------------------------------------- */
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.container .credit {
+  margin: 20px 0;
+}
+
+/* Configurações BEANWEB 
+ * --------------------------------------------------------------*/
+.bwcomponent {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
