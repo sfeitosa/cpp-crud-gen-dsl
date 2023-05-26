@@ -1,14 +1,3 @@
-//
-// C++ Interface: bwhtmltable
-//
-// Description: 
-//
-//
-// Author: Bruno Moreira Guedes <bruno@beanweb.com.br>, (C) 2009
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef BWHTMLTABLE_H
 #define BWHTMLTABLE_H
 
@@ -19,11 +8,7 @@
 #include <bwlist.h>
 #include <bwerror.h>
 
-/**
-Classe responsavel pela formatacao de tabelas HTML
 
-	@author Bruno Moreira Guedes
-*/
 
 using namespace std;
 using namespace Http;

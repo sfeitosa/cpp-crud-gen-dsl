@@ -1,14 +1,3 @@
-//
-// C++ Interface: bwurlhandler
-//
-// Description: 
-//
-//
-// Author: Samuel da Silva Feitosa <samuel@beanweb.com.br>, (C) 2009
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef BWURLHANDLER_H
 #define BWURLHANDLER_H
 
@@ -20,11 +9,6 @@
 
 using namespace std;
 
-/**
-Classe para comunicação com servidores remotos (HTTP, HTTPs, FTP, etc.)
-
-	@author Samuel da Silva Feitosa <samuel@beanweb.com.br>
-*/
 class BWUrlHandler{
 public:
     BWUrlHandler();

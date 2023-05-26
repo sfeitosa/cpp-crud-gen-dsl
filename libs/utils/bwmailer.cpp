@@ -1,14 +1,3 @@
-//
-// C++ Implementation: bwmailer
-//
-// Description:
-//
-//
-// Author: Samuel da Silva Feitosa <bruno@beanweb.com.br>, (C) 2011
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #include "bwmailer.h"
 
 BWMailer::BWMailer() {

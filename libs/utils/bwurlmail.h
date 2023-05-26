@@ -1,16 +1,3 @@
-//
-// C++ Implementation bwurlmail.h
-//
-// Description:
-//
-//
-// Author: Samuel da Silva Feitosa <samuel@beanweb.com.br>, (C) 2014
-// 
-// Created on: 13/02/2014
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef BWURLMAIL_H_
 #define BWURLMAIL_H_
 

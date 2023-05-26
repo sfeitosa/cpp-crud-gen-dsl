@@ -1,14 +1,3 @@
-//
-// C++ Implementation: bwhtmltable
-//
-// Description: 
-//
-//
-// Author: Bruno Moreira Guedes <bruno@beanweb.com.br>, (C) 2009
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #include "bwhtmltable.h"
 #include <fstream>
 
@@ -41,8 +30,6 @@ void CGI::BWHtmlTable::generateTemplate()
     BWKeyPair::iterator itr = tab_fields.begin();
     BWKeyList::iterator itrl = tab_datafields.begin();
 
-    // Adicionado por Samuel em 28/10/2011 para mostrar os campos
-    // da tabela na ordem inserida no arquivo de configuracao
     BWList lst = bw_config["tablefields"].Split(",");
 
     for (unsigned int i = 0; i < lst.size(); i++) {

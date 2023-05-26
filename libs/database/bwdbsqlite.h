@@ -1,14 +1,3 @@
-//
-// C++ Interface: bwdbsqlite
-//
-// Description:
-//
-//
-// Author: Bruno Moreira Guedes <bruno@beanweb.com.br>, (C) 2008
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef BWDBSQLITE_H
 #define BWDBSQLITE_H
 
@@ -22,7 +11,6 @@
 /**
 Driver do SQLite
 
- @author
 */
 class BWDbSQLite : public BWDb
 {

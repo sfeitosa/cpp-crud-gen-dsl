@@ -1,14 +1,3 @@
-//
-// C++ Interface: bwstring
-//
-// Description:
-//
-//
-// Author: Bruno Moreira Guedes <bruno@beanweb.com.br>, BeanWeb (C) 2008
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef BWSTRING_H
 #define BWSTRING_H
 
@@ -21,11 +10,7 @@
 #include <iomanip>
 #include <sstream>
 
-/**
-Classe de manipulacao basica de string
 
- @author Bruno Moreira Guedes
-*/
 class BWString : public BWPrimString
 {
   public:

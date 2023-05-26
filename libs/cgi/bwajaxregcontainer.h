@@ -1,14 +1,3 @@
-//
-// C++ Interface: bwajaxregcontainer
-//
-// Description: 
-//
-//
-// Author: Samuel da Silva Feitosa <samuel@beanweb.com.br>, (C) 2013
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef CGIBWAJAXREGCONTAINER_H
 #define CGIBWAJAXREGCONTAINER_H
 
@@ -32,11 +21,6 @@ using namespace std;
 
 namespace CGI {
 
-/**
-Container
-
-	@author Samuel da Silva Feitosa
-*/
 class BWAjaxRegContainer{
 public:
     BWAjaxRegContainer(BWKeyPair &data, const BWString &crud, BWDb &db);

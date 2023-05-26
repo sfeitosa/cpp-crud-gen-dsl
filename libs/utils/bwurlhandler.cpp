@@ -1,14 +1,3 @@
-//
-// C++ Implementation: bwurlhandler
-//
-// Description: 
-//
-//
-// Author: Samuel da Silva Feitosa <samuel@beanweb.com.br>, (C) 2009
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #include "bwurlhandler.h"
 
 BWUrlHandler::BWUrlHandler() {

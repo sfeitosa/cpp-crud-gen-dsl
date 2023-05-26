@@ -1,25 +1,9 @@
-//
-// C++ Interface: bwlist
-//
-// Description:
-//
-//
-// Author: Bruno Moreira Guedes <bruno@beanweb.com.br>, (C) 2008
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef BWPRIMLIST_H
 #define BWPRIMLIST_H
 
 #include <bwprimlist.h>
 #include <bwstring.h>
 
-/**
-Classe de manipulacao de listas
-
- @author Bruno Moreira Guedes
-*/
 class BWList : public BWPrimList
 {
   public:

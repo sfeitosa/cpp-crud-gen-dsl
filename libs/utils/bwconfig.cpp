@@ -1,14 +1,3 @@
-//
-// C++ Implementation: bwconfig
-//
-// Description:
-//
-//
-// Author: Samuel da Silva Feitosa <samuel@beanweb.com.br>, (C) 2009
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #include "bwconfig.h"
 
 BWConfig::BWConfig() : BWKeyPair()

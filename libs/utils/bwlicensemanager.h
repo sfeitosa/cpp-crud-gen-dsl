@@ -1,14 +1,3 @@
-//
-// C++ Interface: bwlicensemanager
-//
-// Description: 
-//
-//
-// Author: Samuel da Silva Feitosa <samuel@beanweb.com.br>, (C) 2011
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef BWLICENSEMANAGER_H
 #define BWLICENSEMANAGER_H
 
@@ -28,11 +17,6 @@
 
 using namespace std;
 
-/**
-Classe responsavel pelo gerenciamento de licenças BEANWEB
-
-	@author Samuel da Silva Feitosa <samuel@beanweb.com.br>
-*/
 class BWLicenseManager {
     public:
         BWLicenseManager();

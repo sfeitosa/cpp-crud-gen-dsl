@@ -1,25 +1,8 @@
-//
-// C++ Interface: bwerror
-//
-// Description:
-//
-//
-// Author: Bruno Moreira Guedes <bruno@beanweb.com.br>, (C) 2008
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef BWERROR_H
 #define BWERROR_H
 
 #include <bwprimstring.h>
 #include <exception>
-
-/**
-Classe de manipulacao de erros
-
- @author Bruno Moreira Guedes
-*/
 
 
 typedef enum {

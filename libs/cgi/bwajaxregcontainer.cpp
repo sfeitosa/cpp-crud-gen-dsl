@@ -1,14 +1,3 @@
-//
-// C++ Implementation: bwajaxregcontainer
-//
-// Description: 
-//
-//
-// Author: Samuel da Silva Feitosa <samuel@beanweb.com.br>, (C) 2013
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #include "bwajaxregcontainer.h"
 
 using namespace CGI;

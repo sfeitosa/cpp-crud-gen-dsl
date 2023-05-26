@@ -1,15 +1,3 @@
- //
-// C++ Interface: bwhash
-//
-// Description:
-//
-//
-// Author: Samuel da Silva Feitosa <samuel@beanweb.com.br>, BeanWeb (C) 2010
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
-
 #ifndef BWHASH_H
 #define BWHASH_H
 

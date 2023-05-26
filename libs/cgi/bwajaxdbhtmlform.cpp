@@ -1,14 +1,3 @@
-//
-// C++ Implementation: bwajaxdbhtmlform
-//
-// Description:
-//
-//
-// Author: Samuel da Silva Feitosa <bruno@beanweb.com.br>, (C) 2013
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #include "bwajaxdbhtmlform.h"
 #include <iostream>
 
@@ -59,7 +48,7 @@ BWString CGI::BWAjaxDbHtmlForm::GetFieldText(const BWString &field) {
 			m_log(BWLog::MSG_DEBUG) << "Default: "
 					<< m_config[field + ".default"] << bwlog::endl;
 
-			// Código adicionado por Samuel para tratar a especificidade dos
+			// Tratar a especificidade dos
 			// campos InputToList, que não tem tabela de multirelação. Isto
 			// evita o lançamento de exceções desnecessárias ao consultar uma
 			// tabela inexistente. Adicionado em 21/11/2013.

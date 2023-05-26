@@ -1,14 +1,3 @@
-//
-// C++ Interface: bwmime
-//
-// Description:
-//
-//
-// Author: Samuel da Silva Feitosa <samuel@beanweb.com.br>, (C) 2012
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef BWMIME_H
 #define BWMIME_H
 
@@ -18,13 +7,6 @@
 #include <bwlog.h>
 
 using std::fstream;
-
-/**
- Classe para fazer parsing em arquivos de email
-
- @author Samuel da Silva Feitosa
-*/
-
 
 class BWMime {
     public:

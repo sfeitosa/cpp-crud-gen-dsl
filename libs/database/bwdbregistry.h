@@ -1,14 +1,3 @@
-//
-// C++ Interface: bwdbregistry
-//
-// Description:
-//
-//
-// Author: Bruno Moreira Guedes <bruno@beanweb.com.br>, (C) 2009
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef BWDBREGISTRY_H
 #define BWDBREGISTRY_H
 
@@ -32,11 +21,7 @@ BWList __dbreg_empty_list;
 extern BWList __dbreg_empty_list;
 #endif//__BWDBREGISTRY_CPP
 
-/**
-Classe responsavel por gerar os SQLs para adicao, remocao e edicao de registros  do banco, bem como executa-las na base.
 
- @author Bruno Moreira Guedes
-*/
 class BWDbRegistry
 {
   public:

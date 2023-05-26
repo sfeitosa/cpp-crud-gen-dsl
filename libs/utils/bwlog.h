@@ -1,14 +1,3 @@
-//
-// C++ Interface: bwlog
-//
-// Description:
-//
-//
-// Author: Samuel da Silva Feitosa <samuel@beanweb.com.br>, (C) 2009
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef BWLOG_H
 #define BWLOG_H
 
@@ -23,12 +12,6 @@ using std::ifstream;
 namespace bwlog {
 	static const char endl = '\n';
 }
-
-/**
-Classe responsavel pela manipulacao de arquivos de log.
-
-	@author Samuel da Silva Feitosa <samuel@beanweb.com.br>
-*/
 
 class BWLog {
     public:

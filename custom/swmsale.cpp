@@ -1,15 +1,3 @@
-//
-// C++ Implementation: swmsale
-//
-// Description: 
-//
-//
-// Author: Samuel da Silva Feitosa <samuel@beanweb.com.br>, (C) 2014
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
-
 #include "swmsale.h"
 
 int main(int argc, char **argv, char **envp) {

@@ -1,15 +1,3 @@
-//
-// C++ Interface: bwdatabase
-//
-// Description:
-//
-//
-// Author: Bruno Moreira Guedes <bruno@beanweb.com.br>, (C) 2008
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
-
 #ifndef __BWDATABASE_H
 #define __BWDATABASE_H
 

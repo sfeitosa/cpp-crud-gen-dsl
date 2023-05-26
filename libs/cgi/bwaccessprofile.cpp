@@ -1,16 +1,3 @@
-//
-// C++ Implementation bwaccessprofile.cpp
-//
-// Description:
-//
-//
-// Author: Samuel da Silva Feitosa <samuel@beanweb.com.br>, (C) 2014
-// 
-// Created on: 15/01/2014
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #include "bwaccessprofile.h"
 
 namespace CGI {

@@ -1,14 +1,3 @@
-//
-// C++ Interface: bwdbrelation
-//
-// Description:
-//
-//
-// Author: Samuel da Silva Feitosa <samuel@beanweb.com.br>, (C) 2011
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef BWDBRELATION_H
 #define BWDBRELATION_H
 
@@ -19,11 +8,7 @@
 #include <bwerror.h>
 #include <bwlog.h>
 
-/**
-Classe responsavel por manipular relacoes em tabelas do banco de dados.
 
- @author Samuel da Silva Feitosa
-*/
 class BWDbRelation {
     public:
         BWDbRelation();

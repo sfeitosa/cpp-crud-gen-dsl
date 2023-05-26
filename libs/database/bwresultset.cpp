@@ -1,14 +1,3 @@
-//
-// C++ Implementation: bwresultset
-//
-// Description:
-//
-//
-// Author: Brun Moreira Guedes <bruno@beanweb.com.br>, (C) 2008
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #include "bwresultset.h"
 
 BWResultSet::BWResultSet()

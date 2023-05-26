@@ -1,14 +1,3 @@
-//
-// C++ Interface: bwform
-//
-// Description:
-//
-//
-// Author: Bruno Moreira Guedes <bruno@bruno.inf.br>, (C) 2008
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef BWHTTPBWFORM_H
 #define BWHTTPBWFORM_H
 
@@ -28,11 +17,6 @@ using namespace std;
 namespace Http
 {
 
-  /**
-  Classe para manipulacao de formularios
-
-   @author Bruno Moreira Guedes
-  */
   class BWForm
   {
     public:

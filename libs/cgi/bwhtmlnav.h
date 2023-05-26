@@ -1,10 +1,3 @@
-/*
- * bwhtmlnav.h
- *
- *  Created on: 26/10/2013
- *      Author: Samuel da Silva Feitosa
- */
-
 #ifndef BWHTMLNAV_H_
 #define BWHTMLNAV_H_
 

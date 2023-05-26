@@ -1,14 +1,3 @@
-//
-// C++ Interface: bwprimstring
-//
-// Description:
-//
-//
-// Author:  <>, (C) 2008
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef BWPRIMSTRING_H
 #define BWPRIMSTRING_H
 

@@ -1,14 +1,3 @@
-//
-// C++ Interface: bwurl
-//
-// Description:
-//
-//
-// Author: Bruno Moreira Guedes <bruno@beanweb.com.br>, (C) 2008
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef BWURL_H
 #define BWURL_H
 
@@ -18,8 +7,6 @@
 Classe responsavel por parsing e geracao de URLs
 Formato de URL:
 protocolo://[usuario[:senha]@]host[:porta][/caminho[?query-string]]
-
- @author Bruno Moreira Guedes
 */
 class BWUrl
 {

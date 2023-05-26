@@ -1,16 +1,3 @@
-//
-// C++ Implementation bwaccessprofile.h
-//
-// Description:
-//
-//
-// Author: Samuel da Silva Feitosa <samuel@beanweb.com.br>, (C) 2014
-// 
-// Created on: 15/01/2014
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef BWACCESSPROFILE_H_
 #define BWACCESSPROFILE_H_
 

@@ -1,14 +1,3 @@
-//
-// C++ Interface: bwdbpgsql
-//
-// Description:
-//
-//
-// Author: Bruno Moreira Guedes <bruno@beanweb.com.br>, (C) 2009
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef BWDBPGSQL_H
 #define BWDBPGSQL_H
 
@@ -22,8 +11,6 @@ Implementacao do driver do PostgreSQL para a BWAPI
 Nome do driver: pgsql
 Nome da biblioteca: libpgsql.so
 
-
- @author Bruno Moreira Guedes
 */
 class BWDbPgSQL : public BWDb
 {

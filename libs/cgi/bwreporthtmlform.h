@@ -1,14 +1,3 @@
-//
-// C++ Interface: bwreporthtmlform
-//
-// Description: 
-//
-//
-// Author: Samuel da Silva Feitosa <samuel@beanweb.com.br>, (C) 2009
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef CGIBWREPORTHTMLFORM_H
 #define CGIBWREPORTHTMLFORM_H
 
@@ -23,11 +12,7 @@
 
 namespace CGI {
 
-/**
-Classe para manipular formularios para filtros de relatorios
 
-	@author Samuel da Silva Feitosa <samuel@beanweb.com.br>
-*/
 class BWReportHtmlForm : public BWHtmlForm
 {
 public:

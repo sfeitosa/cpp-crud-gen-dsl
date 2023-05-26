@@ -1,14 +1,3 @@
-//
-// C++ Interface: bwhttp
-//
-// Description:
-//
-//
-// Author:  <>, (C) 2008
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef BWHTTPBWHTTP_H
 #define BWHTTPBWHTTP_H
 

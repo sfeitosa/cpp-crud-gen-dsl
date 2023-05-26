@@ -1,14 +1,3 @@
-//
-// C++ Implementation: bwmime
-//
-// Description:
-//
-//
-// Author: Samuel da Silva Feitosa <samuel@beanweb.com.br>, (C) 2012
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #include "bwmime.h"
 
 BWMime::BWMime() {

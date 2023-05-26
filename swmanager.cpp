@@ -1,15 +1,3 @@
-//
-// C++ Implementation: swmanager
-//
-// Description: 
-//
-//
-// Author: Samuel da Silva Feitosa <samuel@beanweb.com.br>, (C) 2014
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
-
 #include "swmanager.h"
 
 int main(int argc, char **argv, char **envp) {
@@ -189,7 +177,7 @@ void loadLoginHtml(const BWString &err) {
 
     header.FromFile(BW_HTML_HEADER);
     header.SetAttribute("DESCRIPTION", "SWManager - Login");
-    header.SetAttribute("AUTHOR", "Samuel da Silva Feitosa");
+    //header.SetAttribute("AUTHOR", "Anônimo");
     header.SetAttribute("SHORTCUT_ICON", "");
     header.SetAttribute("TITLE", "SWManager - Login");
     header.SetAttribute("CUSTOM_CSS", "/css/signin.css");
@@ -230,12 +218,12 @@ void loadManagerHtml() {
 
 	header.FromFile(BW_HTML_HEADER);
 	header.SetAttribute("DESCRIPTION", "Login - SWManager 0.1");
-	header.SetAttribute("AUTHOR", "Samuel da Silva Feitosa");
+	header.SetAttribute("AUTHOR", "Anônimo");
 	header.SetAttribute("SHORTCUT_ICON", "");
 	header.SetAttribute("TITLE", "SWManager - Software Seller Manager");
 	header.SetAttribute("CUSTOM_CSS", "/css/navbar.css");
 
-	link = "<a href='http://github.com/sfeitosa/cppcrudgen'>CPP CRUD Generator &raquo;</a> Samuel da Silva Feitosa";
+	link = "<a href='http://github.com/sfeitosa/cppcrudgen'>CPP CRUD Generator &raquo;</a> ";
 
     footer.FromFile(BW_HTML_FOOTER);
     footer.SetAttribute("FOOTER_MSG", link);

@@ -1,14 +1,3 @@
-//
-// C++ Interface: BWAjaxHtmlTable
-//
-// Description: 
-//
-//
-// Author: Samuel da Silva Feitosa <samuel@beanweb.com.br>, (C) 2013
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef BWAJAXHTMLTABLE_H
 #define BWAJAXHTMLTABLE_H
 
@@ -22,11 +11,6 @@
 #define _BW_HTML_TABLE "var/www/html/templates/table.html"
 #define _BW_HTML_BUTTON "var/www/html/templates/button.html"
 
-/**
-Classe responsavel pela formatacao de tabelas HTML
-
-	@author Samuel da Silva Feitosa
-*/
 
 using namespace std;
 using namespace Http;

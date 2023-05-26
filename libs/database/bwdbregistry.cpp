@@ -1,15 +1,3 @@
-//
-// C++ Implementation: bwdbregistry
-//
-// Description:
-//
-//
-// Author: Bruno Moreira Guedes <bruno@beanweb.com.br>, (C) 2009
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
-
 #define __BWDBREGISTRY_CPP
 #include "bwdbregistry.h"
 #include <bwresultset.h>

@@ -1,15 +1,3 @@
-//
-// C++ Implementation: bwutils
-//
-// Description:
-//
-//
-// Author:  <>, (C) 2008
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
-
 #include <bwutils.h>
 
 // TODO: Melhorar a disposicao destas funcoes

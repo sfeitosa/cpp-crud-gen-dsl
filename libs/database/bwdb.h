@@ -1,14 +1,3 @@
-//
-// C++ Interface: bwdb
-//
-// Description:
-//
-//
-// Author: Bruno Moreira Guedes <bruno@beanweb.com.br>, (C) 2008
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef BWDB_H
 #define BWDB_H
 
@@ -27,16 +16,14 @@
 /**
 Interface de classes de banco de dados
 
- @author Bruno M Guedes <bruno@beanweb.com.br>
-
- Regras de implementação de driver de banco de dados:
+ Regras de implementaï¿½ï¿½o de driver de banco de dados:
  * -Definir nome do driver na API
  * -Implementar classe herdando BWDb
  * -Implementar loader com a interface:
  *   BWDb *bwdb_load_nomedodriver(const BWUrl *);
  * -Implementar unloader com a interface:
  *   void bwdb_unload_nomedodriver(const BWDb *);
- * -Adicionar compilação de lib .so do banco
+ * -Adicionar compilaï¿½ï¿½o de lib .so do banco
  * -Diretorio para libs: /srv/beanweb/lib
  * -Nome da lib: libnomedodriver.so
 */

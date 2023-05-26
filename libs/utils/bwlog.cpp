@@ -1,14 +1,3 @@
-//
-// C++ Implementation: bwlog
-//
-// Description: 
-//
-//
-// Author: Samuel da Silva Feitosa <samuel@beanweb.com.br>, (C) 2009
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #include "bwlog.h"
 
 ofstream BWLog::m_out;

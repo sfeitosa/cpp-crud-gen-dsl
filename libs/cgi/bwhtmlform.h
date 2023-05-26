@@ -1,14 +1,3 @@
-//
-// C++ Interface: bwhtmlform
-//
-// Description:
-//
-//
-// Author: Bruno Moreira Guedes <bruno@beanweb.com.br>, (C) 2009
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef CGIBWHTMLFORM_H
 #define CGIBWHTMLFORM_H
 
@@ -27,11 +16,6 @@ namespace CGI
 {
   using namespace Http;
 
-  /**
-  Classe responsavel por gerenciar formularios genericos, altamente configuraveis e com campos baseados em templates
-
-   @author Bruno Moreira Guedes
-  */
   class BWHtmlForm
   {
     public:

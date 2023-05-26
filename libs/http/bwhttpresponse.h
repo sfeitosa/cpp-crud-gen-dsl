@@ -1,14 +1,3 @@
-//
-// C++ Interface: bwhttpresponse
-//
-// Description:
-//
-//
-// Author:  <>, (C) 2008
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef BWHTTPBWHTTPRESPONSE_H
 #define BWHTTPBWHTTPRESPONSE_H
 

@@ -1,15 +1,3 @@
- //
-// C++ Interface: bwhashmd5
-//
-// Description:
-//
-//
-// Author: Samuel da Silva Feitosa <samuel@beanweb.com.br>, BeanWeb (C) 2010
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
-
 #ifndef BWHASHMD5_H
 #define BWHASHMD5_H
 

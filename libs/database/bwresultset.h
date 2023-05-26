@@ -1,14 +1,3 @@
-//
-// C++ Interface: bwresultset
-//
-// Description:
-//
-//
-// Author: Bruno Moreira Guedes <bruno@beanweb.com.br>, (C) 2008
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef BWRESULTSET_H
 #define BWRESULTSET_H
 
@@ -18,11 +7,6 @@
 #include <bwstring.h>
 #include <bwerror.h>
 
-/**
-Classe para manipulacao de resultados de consultas SQL
-
- @author Bruno Moreira Guedes
-*/
 class BWResultSet : public BWKeyList
 {
   public:

@@ -1,14 +1,3 @@
-//
-// C++ Interface: bwtemplate
-//
-// Description:
-//
-//
-// Author: Bruno Moreira Guedes <bruno@beanweb.com.br>, (C) 2009
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef BWTEMPLATE_H
 #define BWTEMPLATE_H
 
@@ -18,11 +7,7 @@
 #include <bwerror.h>
 #include <bwstring.h>
 
-/**
-Classe responsavel pela interpretacao de templates e por gerar textos apartir deles
 
- @author Bruno Moreira Guedes
-*/
 class BWTemplate
 {
   public:

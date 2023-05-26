@@ -1,15 +1,3 @@
-//
-// C++ Interface: bwutils
-//
-// Description:
-//
-//
-// Author:  <>, (C) 2008
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
-
 #ifndef __BWUTILS_H
 #define __BWUTILS_H
 

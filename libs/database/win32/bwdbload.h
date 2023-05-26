@@ -1,15 +1,3 @@
-//
-// C++ Interface: bwdatabase
-//
-// Description:
-//
-//
-// Author: Samuel da Silva Feitosa <samuel@beanweb.com.br>, (C) 2010
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
-
 #ifndef __BWDBLOAD_H
 #define __BWDBLOAD_H
 

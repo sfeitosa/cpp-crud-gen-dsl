@@ -1,14 +1,3 @@
-//
-// C++ Implementation: bwdatabase
-//
-// Description:
-//
-//
-// Author: Samuel da Silva Feitosa <samuel@beanweb.com.br>, (C) 2010
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #include <bwdbload.h>
 
 BWDb *bwdb_connect(const BWUrl &u)

@@ -1,10 +1,3 @@
-/*
- * bwhtmlnav.cpp
- *
- *  Created on: 26/10/2013
- *      Author: Samuel da Silva Feitosa
- */
-
 #include "bwhtmlnav.h"
 
 namespace CGI {

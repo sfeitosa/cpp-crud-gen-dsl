@@ -1,14 +1,3 @@
-//
-// C++ Implementation: bwdbpgsql
-//
-// Description:
-//
-//
-// Author: Bruno Moreira Guedes <bruno@beanweb.com.br>, (C) 2009
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #include "bwdbpgsql.h"
 #include <iostream>
 

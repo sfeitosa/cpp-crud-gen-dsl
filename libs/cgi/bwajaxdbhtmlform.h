@@ -1,14 +1,3 @@
-//
-// C++ Interface: bwajaxdbhtmlform
-//
-// Description:
-//
-//
-// Author: Samuel da Silva Feitosa <bruno@beanweb.com.br>, (C) 2013
-//
-// Copyright: See COPYING file that comes with this distribution
-//
-//
 #ifndef CGIBWAJAXDBHTMLFORM_H
 #define CGIBWAJAXDBHTMLFORM_H
 
@@ -22,11 +11,6 @@
 namespace CGI
 {
 
-  /**
-  Classe responsavel por intermediar banco de dados e formularios HTML
-
-   @author Samuel da Silva Feitosa
-  */
   class BWAjaxDbHtmlForm : public CGI::BWAjaxHtmlForm
   {
     public:
