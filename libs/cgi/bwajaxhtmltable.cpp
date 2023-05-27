@@ -125,22 +125,22 @@ BWString CGI::BWAjaxHtmlTable::getOptionsTemplate(const BWString &option)
 	if (option == "edit") {
 		button.SetAttribute("CLASS", "btn-success btn-sm bwmodal");
 		if (descr == "") {
-		    button.SetAttribute("TEXT", "<span class='glyphicon glyphicon-pencil'></span> Editar");
+		    button.SetAttribute("TEXT", "<span class='glyphicon glyphicon-pencil'></span> Edit");
 		}
 	} else if (option == "delete") {
 		button.SetAttribute("CLASS", "btn-danger btn-sm bwoption");
 		if (descr == "") {
-		    button.SetAttribute("TEXT", "<span class='glyphicon glyphicon-trash'></span> Excluir");
+		    button.SetAttribute("TEXT", "<span class='glyphicon glyphicon-trash'></span> Delete");
 		}
 	} else if (option == "moveup") {
 		button.SetAttribute("CLASS", "btn-warning btn-sm bwoption");
 		if (descr == "") {
-		    button.SetAttribute("TEXT", "<span class='glyphicon glyphicon-arrow-up'></span> Mover");
+		    button.SetAttribute("TEXT", "<span class='glyphicon glyphicon-arrow-up'></span> Move");
 		}
     } else if (option == "movedown") {
 		button.SetAttribute("CLASS", "btn-warning btn-sm bwoption");
 		if (descr == "") {
-		    button.SetAttribute("TEXT", "<span class='glyphicon glyphicon-arrow-down'></span>Mover");
+		    button.SetAttribute("TEXT", "<span class='glyphicon glyphicon-arrow-down'></span>Move");
 		}
 	}
     else {

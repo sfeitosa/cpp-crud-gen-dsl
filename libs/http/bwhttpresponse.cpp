@@ -91,7 +91,7 @@ namespace Http
     unsigned int i;
     int chr;
     BWString non_alnum_valid("_");
-    cerr << "Set-Cookie: " << name << "=" << valor << endl;
+    //cerr << "Set-Cookie: " << name << "=" << valor << endl;
     if (name == "(null)" || name == "")
     {
                 return;

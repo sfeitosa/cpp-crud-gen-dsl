@@ -244,7 +244,7 @@ void CGI::BWRegContainer::doList() {
 	*bw_http << "<TABLE><TR class='table_body'><TD><A href='";
 	*bw_http
 			<< bw_http->GetServerVar("REQUEST_URL") + "&__action_name=create'>";
-	*bw_http << "[+] Novo Registro</A></TD></TR></TABLE>";
+	*bw_http << "[+] New Register</A></TD></TR></TABLE>";
 	try {
 		rc_table = new BWDbHtmlTable(bw_config, bw_http, *bw_db);
 		rc_table->Send();

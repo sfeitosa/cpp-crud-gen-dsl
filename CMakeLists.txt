@@ -145,3 +145,9 @@ ADD_EXECUTABLE(swmsale.cgi
 
 TARGET_LINK_LIBRARIES(swmsale.cgi bwhttp bwcgi bwdatabase bwutils ${BW_INC_LIBS})
 
+INSTALL(PROGRAMS swm.cgi DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/install/var/www/html/cgi-bin/)
+
+INSTALL(PROGRAMS swmsale.cgi DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/install/var/www/html/cgi-bin/)
+
+INSTALL(FILES libsqlite.so DESTINATION ${CMAKE_CURRENT_SOURCE_DIR}/install/lib/)
+

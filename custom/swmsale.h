@@ -7,23 +7,25 @@
 using namespace std;
 using namespace Http;
  
-#define DB_CONFIG        "/srv/mestrado/sbd/swmanager/etc/swm.db"
-#define BW_HTML_PANEL    "/srv/mestrado/sbd/swmanager/var/www/html/templates/panel.html"
-#define BW_HTML_TABLE    "/srv/mestrado/sbd/swmanager/var/www/html/templates/table.html"
-#define BW_HTML_MODAL    "/srv/mestrado/sbd/swmanager/var/www/html/templates/modal.html"
-#define BW_HTML_FORM     "/srv/mestrado/sbd/swmanager/var/www/html/templates/form.html"
-#define BW_HTML_BUTTON   "/srv/mestrado/sbd/swmanager/var/www/html/templates/button.html"
-#define BW_HTML_ALERT    "/srv/mestrado/sbd/swmanager/var/www/html/templates/alert.html"
-#define BW_HTML_ERROR    "/srv/mestrado/sbd/swmanager/var/www/html/templates/error.html"
-#define BW_HTML_TEXT "/srv/mestrado/sbd/swmanager/etc/fieldtypes/text.fft"
-#define BW_HTML_READONLY "/srv/mestrado/sbd/swmanager/etc/fieldtypes/ReadOnly.fft"
-#define BW_HTML_SELECT   "/srv/mestrado/sbd/swmanager/etc/fieldtypes/SelectList.fft"
-#define BW_HTML_DATE     "/srv/mestrado/sbd/swmanager/etc/fieldtypes/Date.fft"
+#define DB_CONFIG        "etc/swm.db"
+#define BW_HTML_PANEL    "var/www/html/templates/panel.html"
+#define BW_HTML_TABLE    "var/www/html/templates/table.html"
+#define BW_HTML_MODAL    "var/www/html/templates/modal.html"
+#define BW_HTML_FORM     "var/www/html/templates/form.html"
+#define BW_HTML_BUTTON   "var/www/html/templates/button.html"
+#define BW_HTML_ALERT    "var/www/html/templates/alert.html"
+#define BW_HTML_ERROR    "var/www/html/templates/error.html"
+#define BW_HTML_TEXT     "etc/fieldtypes/text.fft"
+#define BW_HTML_READONLY "etc/fieldtypes/ReadOnly.fft"
+#define BW_HTML_SELECT   "etc/fieldtypes/SelectList.fft"
+#define BW_HTML_DATE     "etc/fieldtypes/Date.fft"
+
+#define LOG_PATH "/tmp/swsale.log"
 
 BWDb *g_db = NULL;
 BWHttp *g_http = NULL;
 BWConfig g_config;
-BWLog g_log("/tmp/swsale.log");
+BWLog g_log;
 
 void formHandler();
 void errorHandler(BWError &e);

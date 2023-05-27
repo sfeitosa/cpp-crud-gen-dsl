@@ -223,7 +223,7 @@ void loadManagerHtml() {
 	header.SetAttribute("TITLE", "SWManager - Software Seller Manager");
 	header.SetAttribute("CUSTOM_CSS", "/css/navbar.css");
 
-	link = "<a href='http://github.com/sfeitosa/cppcrudgen'>CPP CRUD Generator &raquo;</a> ";
+	link = "<a href='https://anonymous.4open.science/r/cpp-crud-gen-dsl'>CPP CRUD Generator</a> ";
 
     footer.FromFile(BW_HTML_FOOTER);
     footer.SetAttribute("FOOTER_MSG", link);

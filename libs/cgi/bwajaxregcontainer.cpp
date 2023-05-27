@@ -290,7 +290,7 @@ BWString CGI::BWAjaxRegContainer::getOptions(const BWString &options) {
 		if (opt[i] == "create") {
 			button.SetAttribute("CLASS", "btn-primary bwmodal");
 			if (descr == "") {
-			    button.SetAttribute("TEXT", "<span class='glyphicon glyphicon-plus'></span> Novo Registro");
+			    button.SetAttribute("TEXT", "<span class='glyphicon glyphicon-plus'></span> New Register");
 			}
 		}
 		else {
