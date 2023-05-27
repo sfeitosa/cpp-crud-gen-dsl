@@ -1,1 +1,24 @@
-# cpp-crud-gen-dsl
+# A JSON-like DSL to Generate Web CRUD Applications in C++
+
+This repository contains the code used and described in the paper submitted for the 27th Brazilian Symposium on Programming Languages (2023).
+
+## Usage
+
+### Compiling
+
+### Running the example
+
+To execute the example application, run the following commands to start an HTTP server:
+
+```bash
+cd install
+python3 -m http.server --cgi 8000 --directory var/www/html/
+```
+
+### Testing the example
+
+Then, open your browser and access the page [http://localhost:8000/cgi-bin/swm.cgi](http://localhost/cgi-bin/swm.cgi).
+
+The credentials to access the example page is ``admin/admin``.
+
+
