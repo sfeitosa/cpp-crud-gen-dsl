@@ -4,7 +4,16 @@ This repository contains the code used and described in the paper submitted for 
 
 ## Usage
 
-### Compiling
+The next steps will show you how to compile and run an example application using the proposed DSL.
+
+### Compiling and installing
+
+To compile and install the software and libraries, run the following commands.
+
+```
+cmake .
+make && make install
+```
 
 ### Running the example
 
