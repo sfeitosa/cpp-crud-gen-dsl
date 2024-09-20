@@ -1,6 +1,6 @@
-# A JSON-like DSL to Generate Web CRUD Applications in C++
+# CPP-Admin: An Engine and DSL to Automate the Development of Web CRUD Applications in C++
 
-This repository contains the code used and described in the paper submitted for the 27th Brazilian Symposium on Programming Languages (2023).
+This repository contains the code used and described in the paper submitted for the RSC journal.
 
 ## Usage
 
